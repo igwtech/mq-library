@@ -1,0 +1,24 @@
+{
+    "name": "greicodex/mq-library",
+    "description": "Simple Message Bus Library",
+    
+    "require": {
+        "videlalvaro/php-amqplib": "^2.6",
+        "symfony/process": "^2.7",
+        "symfony/finder": "^2.7",
+        "zumba/json-serializer": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "":"src/"
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Javier Munoz",
+            "email": "javier@greicodex.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
